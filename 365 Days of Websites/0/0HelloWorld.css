@@ -1,0 +1,40 @@
+.block {
+	text-align: center;
+	height: inherit;
+	position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: inherit;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: inherit;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #99CCFF;
+}
+
+.block:hover .overlay {
+  opacity: 0.9;
+}
+
+.hello {
+  color: black;
+  font-size: 80px;
+  font-style: oblique;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
