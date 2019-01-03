@@ -1,0 +1,15 @@
+body {
+	background-image: url("fireworks.gif");
+	background-size: cover;
+}
+
+.text {
+	color: white;
+	font-style: oblique;
+	text-align: center;
+	font-size: 50px;
+}
+
+.new {
+	font-size: 80px;
+}
